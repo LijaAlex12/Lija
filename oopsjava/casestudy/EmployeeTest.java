@@ -17,4 +17,12 @@ public class EmployeeTest {
       empTwo.empSalary(500);
       empTwo.printEmployee();
    }
+
 }
+
+
+// In Java if a fully qualified name, which includes the package and the class name is given, then the compiler can easily locate the source code or classes. Import statement is a way of giving the proper location for the compiler to find that particular class.
+
+//For example, the following line would ask the compiler to load all the classes available in directory java_installation/java/io −
+
+// import java.io.*;//
