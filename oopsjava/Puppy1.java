@@ -1,7 +1,7 @@
-public class Puppy {
+public class Puppy1 {
    int puppyAge;
 
-   public Puppy(String name) {
+   public Puppy1(String name) {
       // This constructor has one parameter, name.
       System.out.println("Name chosen is :" + name );
    }
@@ -17,13 +17,13 @@ public class Puppy {
 
    public static void main(String []args) {
       /* Object creation */
-      Puppy myPuppy = new Puppy( "tommy" );
+      Puppy1 myPuppy = new Puppy1( "tommy" );
 
       /* Call class method to set puppy's age */
-      myPuppy.setAge( 2 );
+      myPuppy1.setAge( 2 );
 
       /* Call another class method to get puppy's age */
-      myPuppy.getAge( );
+      myPuppy1.getAge( );
 
       /* You can access instance variable as follows as well */
       System.out.println("Variable Value :" + myPuppy.puppyAge );
